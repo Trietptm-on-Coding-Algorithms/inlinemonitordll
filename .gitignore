@@ -1,0 +1,11 @@
+*.pyc
+*.auto*
+*.swp
+*.bak
+*.un
+*~
+*.filters
+*.user
+Debug/*
+Release/*
+.vs/*
