@@ -1,8 +1,9 @@
 #pragma once
 
 #include <windows.h>
-#include <map>
+#include <tuple>
+#include <vector>
 
-typedef std::map<void *, void *> HookingTarget;
+typedef std::vector < std::tuple<void *, void *> > HookingTarget;
 
 HookingTarget & getTargetsIO();
